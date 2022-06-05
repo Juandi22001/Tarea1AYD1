@@ -59,7 +59,16 @@ return res.json({  Info_201807335:" Juan Diego Alvarado Salguero -201807335  "})
 
 
 });
+app.post('/Info-201807335', (req, res) => {
+  let { op1, op2 } = req.body
 
+
+concact=op1+"-"+op2
+total=eval(concact)
+return res.json({  mensaje:" el total de la resta es  "+eval(total)})
+
+
+});
 
 
 
