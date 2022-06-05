@@ -63,6 +63,12 @@ return res.json({  mensaje:" el total de la suma es  "+eval(total)})
 
 
 });
+app.get('/Calculadora-201807335', (req, res) => {
+
+return res.json({  mensaje:" hola amigos  bievenidos a la mejor calcu del mundo "})
+
+
+});
 
 
 
